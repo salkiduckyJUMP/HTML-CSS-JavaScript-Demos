@@ -1,0 +1,48 @@
+/* 
+ * TODO: Add a rule that displays the page in a sans serif font X
+ * TODO: Add a rule that displays every other paragraph in blue X
+ * TODO: Add a rule that when you select text, background should be colored red and font should be colored white
+ * TODO: Add a border to black paragraphs, 5px, round corners X
+ * TODO: Add a box shadow to images, make them 3px by 5px and give it a color of #aaa X
+ */
+
+ img {
+     display: block;
+     width: 300px;
+     margin-left: auto;
+     margin-right: auto;
+     box-shadow: 3px 5px 5px #aaa;
+}
+
+
+
+ /* Font-Family will be sans-sarif */
+ body {
+     font-family: Verdana, Geneva, Tahoma, sans-sarif;
+     background-color: antiquewhite;
+     text-align: center;
+ }
+
+ /* Every other paragraph will now be blue. */
+ p:nth-child(odd) {
+     color: blue;
+ } 
+
+ /* Every black paragraph has a border-radius that gives it round corners */
+ p:nth-child(even) {
+    border: solid black;
+    border-radius: 5px;
+    padding: 10px;
+
+ }
+
+ /* When hovered on, a ampersand entity will appear after the paragraph */
+ p:hover::after{
+    content:"\0026";
+ }
+
+ /*When text is selected, the background color should be red and the text color is white */
+ ::selection {
+     background-color: red;
+     color: white;
+ }

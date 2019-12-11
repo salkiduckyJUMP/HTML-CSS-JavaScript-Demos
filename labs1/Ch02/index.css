@@ -1,0 +1,22 @@
+#container {
+    border: solid black;
+    width: 100%;
+    height: 100px;
+}
+
+#circle {
+  height: 75px;
+  width: 75px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,88,1) 50%, rgba(0,212,255,1) 100%);
+  border-radius: 50%;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+    0%      {left:0px; bottom:0px; transform:rotate(0deg)}       
+    100%      {left:85%; transform:rotate(360deg)}
+  }
