@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+article {
+    border: 5px solid rebeccapurple;
+    background-color: lightsteelblue;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-style: groove;
+        /* border: 5px solid crimson; */
+}
+
+#quotes {
+    font-weight: bolder;
+    background-color: khaki
+}
+
+#speakers {
+    font-style: italic;
+    background-color: silver;
+}
