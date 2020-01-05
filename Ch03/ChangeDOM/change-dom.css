@@ -1,0 +1,14 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.highlight {
+    background-color: yellow;
+    color: green;
+}
+
+.highlight2 {
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(25,0,115,1) 100%);
+    color: white;
+}
